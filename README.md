@@ -16,7 +16,7 @@
 
 ### Run:
 1. Download the project
-2. Add your xml files to the [`xml_files` directory](https://github.com/yuramayer/test_task_11_2022/main/README.md#xml-directory)
+2. Add your xml files to the [`xml_files` directory](https://github.com/yuramayer/test_task_11_2022/edit/main/README.md#xml-directory)
 3. In the project directory run the `main.py` with python 3.8:
 
 > `python main.py`
