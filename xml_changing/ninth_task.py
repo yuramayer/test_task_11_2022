@@ -12,5 +12,8 @@ def change_img_path(tree: ElementTree, bs_data: BeautifulSoup, output):
         *_, path = img_name.split('/')
         img.attrib['name'] = path
 
-    *_, file_name = output.split('/')
+    if '/' in output:
+        *_, file_name = output.split('/')
+    elif '\\' in output:
+        *_, file_name = output.split('\\')
     tree.write(f'xml_result/{file_name}', encoding='utf-8')

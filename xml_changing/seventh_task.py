@@ -12,5 +12,8 @@ def change_img_id(tree: ElementTree, bs_data: BeautifulSoup, output):
     for ix, img in enumerate(root.iter('image')):
         img.attrib['id'] = str(img_id_lst[-1 - ix])
 
-    *_, file_name = output.split('/')
+    if '/' in output:
+        *_, file_name = output.split('/')
+    elif '\\' in output:
+        *_, file_name = output.split('\\')
     tree.write(f'xml_result/{file_name}', encoding='utf-8')

@@ -10,5 +10,8 @@ def change_img_png(tree: ElementTree, bs_data: BeautifulSoup, output):
     for img in root.iter('image'):
         img.attrib['name'] = f"{img.attrib['name'][:-4]}.png"
 
-    *_, file_name = output.split('/')
+    if '/' in output:
+        *_, file_name = output.split('/')
+    elif '\\' in output:
+        *_, file_name = output.split('\\')
     tree.write(f'xml_result/{file_name}', encoding='utf-8')
