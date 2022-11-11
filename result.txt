@@ -1,0 +1,114 @@
+
+Please, type the script number!
+
+The first script: 1
+The second script: 2
+The third script: 3
+The fourth script: 4
+
+> 1
+
+General statistics for #1 file with path: xml_files/annotations-2.xml
+All the images for the #1 file: 24
+All the marked images for the #1 file: 24
+All the unmarked images for the #1 file: 0
+All the figures for the #1 file: 640
+The max image for the #1 file:
+- count: 3
+- file_name: ftp/alinyao_data/samsung/selected/plant/medium-MSWx1IlwYuw.jpg
+- file_width: 4000
+- file_height: 6000
+The min image for the #1 file:
+- count: 1
+- file_name: ftp/alinyao_data/samsung/selected/plant/hard-qCdOmlNaIBw.jpg
+- file_width: 2000
+- file_height: 2500
+
+---------------------------------------------------------------------------
+General statistics for #2 file with path: xml_files/annotations-3.xml
+All the images for the #2 file: 2399
+All the marked images for the #2 file: 637
+All the unmarked images for the #2 file: 1762
+All the figures for the #2 file: 1129
+The max image for the #2 file:
+- count: 2399
+- file_name: ftp/roger2/OK1/2_(2022-03-09_16'00'11_-_2022-03-09_18'00'11)_93600.jpg
+- file_width: 5200
+- file_height: 800
+The min image for the #2 file:
+- count: 2399
+- file_name: ftp/roger2/OK1/2_(2022-03-07_10'00'11_-_2022-03-07_12'00'11)_100200.jpg
+- file_width: 5200
+- file_height: 800
+
+---------------------------------------------------------------------------
+General statistics for #3 file with path: xml_files/annotations.xml
+All the images for the #3 file: 1000
+All the marked images for the #3 file: 133
+All the unmarked images for the #3 file: 867
+All the figures for the #3 file: 232
+The max image for the #3 file:
+- count: 900
+- file_name: ftp/RD/1000_samples/fb783e93-ab1b-4869-bd57-349905cfb74b_1647585888280.jpg
+- file_width: 1920
+- file_height: 1206
+The min image for the #3 file:
+- count: 100
+- file_name: ftp/RD/1000_samples/1d6a77a9-fbd3-4741-ac14-e7ce72db2a93_2827596505970.jpg
+- file_width: 1280
+- file_height: 804
+
+---------------------------------------------------------------------------
+
+
+Please, type the script number!
+
+The first script: 1
+The second script: 2
+The third script: 3
+The fourth script: 4
+
+> 2
+
+Classes statistics for #1 file with path: xml_files/annotations-2.xml
+All the figures by classes for the #1 file:
+Class "item" - 63 figures
+Class "ignore" - 543 figures
+Class "fur" - 34 figures
+---------------------------------------------------------------------------
+Classes statistics for #2 file with path: xml_files/annotations-3.xml
+All the figures by classes for the #2 file:
+Class "grab" - 190 figures
+Class "vagon" - 939 figures
+---------------------------------------------------------------------------
+Classes statistics for #3 file with path: xml_files/annotations.xml
+All the figures by classes for the #3 file:
+Class "Основной" - 140 figures
+Class "Светофор на другой дороге" - 3 figures
+Class "Дублирующий" - 89 figures
+---------------------------------------------------------------------------
+
+
+Please, type the script number!
+
+The first script: 1
+The second script: 2
+The third script: 3
+The fourth script: 4
+
+> 3
+
+Figures statistics for #1 file with path: xml_files/annotations-2.xml
+Figures by categories for the #1 file:
+Category "polygon" - 640 figures
+---------------------------------------------------------------------------
+Figures statistics for #2 file with path: xml_files/annotations-3.xml
+Figures by categories for the #2 file:
+Category "box" - 1129 figures
+---------------------------------------------------------------------------
+Figures statistics for #3 file with path: xml_files/annotations.xml
+Figures by categories for the #3 file:
+Category "box" - 232 figures
+---------------------------------------------------------------------------
+
+Process finished with exit code 0
